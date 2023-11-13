@@ -7,9 +7,12 @@ from loader import split_train_test_imgs_csv, merge_labels_and_metadata
 
 SEED = 2021
 ISIC_BASE_PATH = "./" 
-CSV_META_PATH = "ISIC_2019_Training_GroundTruth.csv"
-CSV_LABELS_PATH = "ISIC_2019_Training_Metadata.csv"
-IMGS_BASE_DIR= 'ISIC_2019_Training_Input/'
+# CSV_META_PATH = "ISIC_2019_Training_GroundTruth.csv"
+# CSV_LABELS_PATH = "ISIC_2019_Training_Metadata.csv"
+# IMGS_BASE_DIR= 'ISIC_2019_Training_Input/'
+CSV_META_PATH = "/content/drive/MyDrive/MTP Dataset 1/ISIC_2019_Training_GroundTruth.csv"
+CSV_LABELS_PATH = "/content/drive/MyDrive/MTP Dataset 1/ISIC_2019_Training_Metadata.csv"
+IMGS_BASE_DIR= '/content/drive/MyDrive/MTP Dataset 1/ISIC_2019_Training_Input/'
 TRAIN_DIR_BASE = 'train/'
 TEST_DIR_BASE = 'test/'
 TRAIN_RATIO = 0.9
